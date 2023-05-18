@@ -1,0 +1,27 @@
+//Swapping a number using a variablel
+//Swapping a number using bitwise operator
+//Swapping a number using inbuilt swap function
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int a,b;
+	cin>>a>>b;
+	cout<<"Before Swap numbers are "<<a<<" & "<<b<<endl;
+	
+	//Using normal method
+	/*int num ;
+	num = a;
+    a = b;
+    b = num;*/
+ 
+    //Using bitwise Operator
+    // a = a^b;
+    // b = a^b;
+    // a = a^b;
+
+    //using inbuilt swap function
+    swap(a,b);
+
+    cout<<"After Swap numbers are "<<a<<" & "<<b<<endl;
+
+}
