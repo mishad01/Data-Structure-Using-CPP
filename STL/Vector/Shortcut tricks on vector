@@ -1,0 +1,5 @@
+//USING THIS WE CAN FIN MAX AND MIN VALUE FROM VECTOR
+auto maxElement =max_element(v.begin(), v.end());
+    cout<<*maxElement;
+auto minElement =min_element(v.begin(), v.end());
+    cout<<*minElement;
